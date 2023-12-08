@@ -1,8 +1,22 @@
+@charset "UTF-8";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=kanit&display=swap");
 
+@font-face {
+  font-family: 'Kanit';
+  src: url('/src/assets/fonts/Kanit/Kanit-Regular.ttf') format('ttf'),
+        url('/src/assets/fonts/Kanit/Kanit-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-Kanit {
+  font-family: 'Kanit';
+  font-weight: 400;
+  font-style: normal;
+}
 
 :root {
   color: #000;
