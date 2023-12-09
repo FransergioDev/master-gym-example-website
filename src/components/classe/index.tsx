@@ -7,7 +7,7 @@ import imageClasse6 from '../../assets/images/icons/Rectangle 27.png';
 
 export default function Classe() {
     return (
-        <section className='text-left'>
+        <section className='text-left' id="classe">
             <h2 className='font-extrabold text-4xl mb-4'>Aulas</h2>
             <div className='grid grid-cols-3 gap-x-4 gap-y-2'>
                 <div className="col-span-1">

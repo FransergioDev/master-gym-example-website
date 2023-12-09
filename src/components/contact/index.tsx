@@ -2,12 +2,12 @@ import FormContact from "./form";
 
 export default function Contact() {
     return (
-        <div className="bg-yellow w-full mt-[40px] pt-8 pb-8">
-            <section className='grid grid-cols-2 gap-2 max-lg:flex max-lg:flex-col'>
+        <div className="bg-yellow w-full mt-[40px] pt-8 pb-8" id="contact">
+            <section className='grid grid-cols-2 gap-2 max-[1200px]:flex max-[1200px]:flex-col-reverse'>
                 <div className="col-span-1">
                     <FormContact/>
                 </div>
-                <div className="col-span-1 text-left ml-8 max-lg:mt-6">
+                <div className="col-span-1 text-left ml-8 max-lg:mt-0 max-[1200px]:mb-6">
                     <h2 className='font-extrabold text-4xl mb-4'>Contato</h2>
                     <p className="text-white text-[2em]">contato@mastergym.com.br</p>
                     <p className="text-white text-[1.24em]">intagram/gym</p>

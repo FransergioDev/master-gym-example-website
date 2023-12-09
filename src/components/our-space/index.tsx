@@ -7,7 +7,7 @@ import image6 from '../../assets/images/espaco/Rectangle 35.png';
 
 export default function OurSpace() {
     return (
-        <section className='text-left relative h-[100%]'>
+        <section className='text-left relative h-[100%]' id="our-space">
             <h2 className='font-extrabold text-4xl mb-4'>Nosso espaço</h2>
             <div className='grid grid-row gap-x-8 gap-y-[2em] bg-yellow z-0 rounded-md relative content-between p-2 pt-8'>
                 <div className='bg-white w-[20%] left-0 h-[100%] z-1 absolute'></div>

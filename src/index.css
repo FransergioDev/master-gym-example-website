@@ -77,6 +77,7 @@ section {
     z-index: 1;
     width: 100%;
     text-align: right;
+    padding: 0.4em;
     background-color: black;
   }
 
@@ -89,7 +90,9 @@ section {
   }
 
   .banner-illustration-image {
-    background-position: -34em 7em;
+    height: 600px;
+    margin-top: 0em;
+    background-position: -34em 0em;
   }
 }
 
