@@ -1,8 +1,8 @@
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
 import './App.css'
 import About from './components/about'
 import Banner from './components/banner'
+import ButtonTopPage from './components/buttonTopPage'
+import ButtonWhatsapp from './components/buttonWhatsapp'
 import Classe from './components/classe'
 import Contact from './components/contact'
 import Footer from './components/footer'
@@ -22,10 +22,8 @@ function App() {
       <Plans/>
       <Contact/>
       <Location/>
-      {/**
-       * <img src={viteLogo} className="logo" alt="Vite logo" />
-       * <img src={reactLogo} className="logo react" alt="React logo" />
-       */}
+      <ButtonWhatsapp/>
+      <ButtonTopPage/>
       <Footer/>
     </>
   )
