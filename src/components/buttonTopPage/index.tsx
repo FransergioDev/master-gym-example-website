@@ -1,6 +1,6 @@
 import { FaArrowUp } from "react-icons/fa";
 
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function ButtonTopPage() {
     const [offset, setOffset] = useState(0);
